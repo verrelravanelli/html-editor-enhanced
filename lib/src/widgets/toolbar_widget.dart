@@ -707,12 +707,15 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
                           _actualFontSizeSelectedItem = 19;
                           break;
                         case 5:
-                          _actualFontSizeSelectedItem = 24;
+                          _actualFontSizeSelectedItem = 21;
                           break;
                         case 6:
-                          _actualFontSizeSelectedItem = 32;
+                          _actualFontSizeSelectedItem = 24;
                           break;
                         case 7:
+                          _actualFontSizeSelectedItem = 32;
+                          break;
+                        case 8:
                           _actualFontSizeSelectedItem = 48;
                           break;
                       }
