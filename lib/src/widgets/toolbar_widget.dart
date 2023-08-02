@@ -219,7 +219,7 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
       });
     }
     //check if the font size matches one of the predetermined sizes and update the toolbar
-    if ([1, 2, 3, 4, 5, 6, 7].contains(fontSize)) {
+    if ([1, 2, 3, 4, 5, 6, 7, 8].contains(fontSize)) {
       setState(mounted, this.setState, () {
         _fontSizeSelectedItem = fontSize;
       });
